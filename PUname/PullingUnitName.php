@@ -3,7 +3,9 @@
 <?php
 
 
-require '../database/connect.php';
+echo "What is wrong"
+
+// require '../database/connect.php';
 
 // $puName = "SELECT * FROM `polling_unit`";
 // $result = mysqli_query($conn, $puName);
