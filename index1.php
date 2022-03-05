@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Election</title>
 
-    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
 
 
-    <link rel="stylesheet" href="../resources/css/mystyle.css">
+    <link rel="stylesheet" href="resources/css/mystyle.css">
 
 </head>
 <body>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="only mt-5">
-            <?php require 'lgname/lgname.php'; ?>
+            <?php require 'lgname.php'; ?>
             <input type="text" id="index1_input1" placeholder="Polling Unit ID" readonly>
             <input type="text" id="index1_input2" placeholder="Local Gov. ID" readonly>
         </div>        

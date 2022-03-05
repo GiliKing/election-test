@@ -3,7 +3,7 @@
 <?php
 
 
-require '../database/connect.php';
+require 'database/connect.php';
 
 
 if($conn) {
@@ -65,7 +65,7 @@ if($conn) {
                                 success: function(data) {
 
                                     if(data.trim() == "yes") {
-                                        window.location.href = "../lgresult/lgresult.php?id='.base64_encode($id).'";
+                                        window.location.href = "lgresult.php?id='.base64_encode($id).'";
                                     }
 
                                 },

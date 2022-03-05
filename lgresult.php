@@ -1,8 +1,8 @@
 
 
-<link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="../resources/css/mystyle.css">
+<link rel="stylesheet" href="resources/css/mystyle.css">
 
 <?php
 
@@ -12,7 +12,7 @@ $id_real = base64_decode($id);
 
 if(!empty($id) || $id != null) {
 
-    require '../../database/connect.php';
+    require 'database/connect.php';
 
     if($conn) { 
 
