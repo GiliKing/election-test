@@ -45,7 +45,7 @@
             </div>
 
             <div class="card-body cb">
-                    
+                    <?php require 'puname/pullingunitname.php'; ?>
             </div>
         </div>
         <!-- end of pulling unit card -->
