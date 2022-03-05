@@ -36,20 +36,35 @@
     </nav>
     <!-- End Of Navigation -->
 
-    <div class="container">
-        <!-- Polling unit card -->
-        <div class="card">
-            <div class="card-header header_cl">
-                <h1 id="header_txt">These are the Individual pulling units in all the Local Governments of Delta State<span>(click to show result of each individual polling unit)</span>
-                </h1>
-            </div>
-
-            <div class="card-body cb">
-                    <?php require 'puname/pullingunitname.php'; ?>
-            </div>
-        </div>
-        <!-- end of pulling unit card -->
+<div class="container">
+<!-- Polling unit card -->
+<div class="card">
+    <div class="card-header header_cl">
+        <h1 id="header_txt">These are the Individual pulling units in all the Local Governments of Delta State<span>(click to show result of each individual polling unit)</span>
+        </h1>
     </div>
+
+
+
+<div class="card-body cb">
+
+
+<?php
+        
+        
+// require "puname/pullingunitname.php"; 
+
+
+
+?>
+
+</div>
+
+
+
+    </div>
+    <!-- end of pulling unit card -->
+</div>
 
 
     <!-- links to javascript -->
