@@ -65,7 +65,7 @@ if($conn) {
                                 success: function(data) {
 
                                     if(data.trim() == "yes") {
-                                        window.location.href = "../views/lgresult/lgresult.php?id='.base64_encode($id).'";
+                                        window.location.href = "../lgresult/lgresult.php?id='.base64_encode($id).'";
                                     }
 
                                 },

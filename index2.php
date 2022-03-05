@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Election</title>
 
-    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
 
 
-    <link rel="stylesheet" href="../resources/css/mystyle.css">
+    <link rel="stylesheet" href="resources/css/mystyle.css">
 
 </head>
 <body>
@@ -40,7 +40,7 @@
         <!-- Polling unit card -->
         <div class="card">
             <div class="card-header header_cl">
-                <h1 id="header_txt">Want Able to complete these one</span>
+                <h1 id="header_txt">Wanst Able to complete these one</span>
                 </h1>
             </div>
 
@@ -53,8 +53,8 @@
 
 
     <!-- links to javascript -->
-    <script src="../resources/js/jquery.js"></script>
-    <script src="../resources/js/bootstrap.min.js"></script>
-    <script src="../resources/js/myscript.js"></script>
+    <script src="resources/js/jquery.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/myscript.js"></script>
 </body>
 </html>

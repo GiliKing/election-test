@@ -60,7 +60,7 @@ if($conn) {
                                 },
                                 success: function(data) {
                                     if(data.trim() == "yes") {
-                                        window.location.href = "../views/PUresults/PollingUnitResult.php?id='.base64_encode($uniqueID).'";
+                                        window.location.href = "../PUresults/PollingUnitResult.php?id='.base64_encode($uniqueID).'";
                                     }
                                 }
                             })

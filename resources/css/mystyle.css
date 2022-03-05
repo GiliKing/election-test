@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+}
+
+/* styling of polling unit */
+
+div.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+div.cb{
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+.header_cl {
+    background-color: white;
+}
+
+#header_txt {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#make_big {
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+/* end of styling of polling unit */
+
+
+/* styling for local government */
+
+.only {
+    display: flex;
+    justify-content: space-between;
+}
+
+#index1_input1, #index1_input2{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+select {
+    height: 5em;
+}
+
+/* end of styling for lg */
+
+nav {
+    background-color: white;
+}
+
+#nav_txt {
+    font-weight: bold;
+    color: black;
+}

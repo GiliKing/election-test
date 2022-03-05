@@ -1,8 +1,8 @@
 
 
-<link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="../resources/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="../../resources/css/mystyle.css">
+<link rel="stylesheet" href="../resources/css/mystyle.css">
 
 <?php
 
